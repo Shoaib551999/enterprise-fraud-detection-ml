@@ -1,0 +1,35 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Git files
+.git/
+.github/
+.gitignore
+
+# Local MLflow data
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Development files
+.vscode/
+.idea/
+tests/
+data/
+*.log
+
+# Documentation
+README.md
